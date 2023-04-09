@@ -6,7 +6,7 @@ Nguyễn Hoàng Thọ<br>
 Nguyễn Đắc Phong<br>
 Ngô Trần Anh Phương<br>
 
-Môn Phát triển ứng dụng web - UET
+Hệ thống đăng kiểm ô tô - Môn phát triển ứng dụng Web
 
 ## Project setup
 
