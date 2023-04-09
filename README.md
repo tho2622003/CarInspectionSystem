@@ -1,4 +1,12 @@
-# base
+# Car Inspection System
+
+### Credits
+
+Nguyễn Hoàng Thọ
+Nguyễn Đắc Phong
+Ngô Trần Anh Phương
+
+Môn Phát triển ứng dụng web - UET
 
 ## Project setup
 
