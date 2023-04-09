@@ -1,10 +1,10 @@
 # Car Inspection System
 
-### Credits
+## Credits
 
-Nguyễn Hoàng Thọ
-Nguyễn Đắc Phong
-Ngô Trần Anh Phương
+Nguyễn Hoàng Thọ<br>
+Nguyễn Đắc Phong<br>
+Ngô Trần Anh Phương<br>
 
 Môn Phát triển ứng dụng web - UET
 
