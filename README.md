@@ -1,6 +1,57 @@
-# CarInspectionSystem
-Hệ thống đăng kiểm ô tô - Môn phát triển ứng dụng Web
+# base
 
-Nguyễn Hoàng Thọ - 21020530 - CACLC2<br />
-Nguyễn Đắc Phong - 21021525 - CACLC2<br />
-Ngô Trần Anh Phương - 21021527 - CACLC2<br />
+## Project setup
+
+```
+# yarn
+yarn
+
+# npm
+npm install
+
+# pnpm
+pnpm install
+```
+
+### Compiles and hot-reloads for development
+
+```
+# yarn
+yarn dev
+
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+```
+
+### Compiles and minifies for production
+
+```
+# yarn
+yarn build
+
+# npm
+npm run build
+
+# pnpm
+pnpm build
+```
+
+### Lints and fixes files
+
+```
+# yarn
+yarn lint
+
+# npm
+npm run lint
+
+# pnpm
+pnpm lint
+```
+
+### Customize configuration
+
+See [Configuration Reference](https://vitejs.dev/config/).
