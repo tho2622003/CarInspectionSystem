@@ -1,41 +1,24 @@
-// Plugins
+import { defineConfig } from 'vite';
+import laravel from 'laravel-vite-plugin';
 import vue from '@vitejs/plugin-vue'
-import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+import path from 'path'
 
-// Utilities
-import { defineConfig } from 'vite'
-import { fileURLToPath, URL } from 'node:url'
-
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    vue({ 
-      template: { transformAssetUrls }
-    }),
-    // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
-    vuetify({
-      autoImport: true,
-      styles: {
-        configFile: 'src/styles/settings.scss',
-      },
-    }),
-  ],
-  define: { 'process.env': {} },
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    },
-    extensions: [
-      '.js',
-      '.json',
-      '.jsx',
-      '.mjs',
-      '.ts',
-      '.tsx',
-      '.vue',
+    plugins: [
+        laravel({
+            input: ['resources/css/app.css', 'resources/js/app.js'],
+            refresh: true,
+        }),
+        vue({
+            template: {
+                base: null,
+                includeAbsolute: false
+            }
+        })
     ],
-  },
-  server: {
-    port: 3000,
-  },
-})
+    resolve: {
+        alias: {
+            ziggy: path.resolve('vendor/tightenco/ziggy/dist/vue.es.js'),
+        },
+    },
+});
